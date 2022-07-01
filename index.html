@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>CV Gouviaux Martin</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#APropos" rel="" onclick="closeNav();">A Propos</a>
+        <a href="#CInformatique" onclick="closeNav()">Compétences informatique</a>
+        <a href="#EPro" onclick="closeNav()">Expériences professionnelles</a>
+        <a href="#Portfolio" onclick="closeNav()">Portfolio</a>
+        <a href="Downloadables/CV_Martin_Gouviaux.pdf" target="_blank" onclick="closeNav()">Télécharger mon CV</a>
+      </div>
+    <div id = "StickyBar">
+        <div id = "StickyName">
+            <a href="#" id = "TopPage">
+                Martin Gouviaux
+            </a>
+        </div>
+        <div id = "StickyMenu">
+            <div class="Stickycontainer" onclick="openNav()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="HeaderCV">
+        <div id = "APropos"></div>
+        <div id="BackGroundHead">
+        </div>
+        <div class = "containerHead">
+            <div class="container">
+                <div id="Martin">
+                    <div class = "imageProfile">
+                        <img id="maFace" src ="Images/maFace.jpg">
+                    </div>
+                    <div class="Titles">
+                        <span id = "Nom">Martin GOUVIAUX</span>
+                        <br>
+                        <span id = "Poste">2ème année de bachelor a l'EPSI de Grenoble</span><br>
+                        <span id = "Poste">Recherche d'Alternance 2022-2023</span>
+                    </div>
+                    <div id="Links">
+                        <div id="Linkedin">
+                            <a href="https://www.linkedin.com/in/martin-gouviaux-1b95681b7/" target="_blank">
+                                <img src="Images/Linkedin.png" alt="">
+                            </a>
+                        </div>
+                        <div id="GitHub">
+                            <a href="https://github.com/Kadah-Ne" target="_blank">
+                                <img src ="Images/GitHub.png">
+                            </a>
+                        </div>               
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class = "BodyCV">
+        
+        <div class = "cards">
+            <h2>A Propos</h2>
+            <span>Bonjour,<br><br>
+                je suis Martin GOUVIAUX, étudiant en 2ème année de bachelor a <b><a href="https://www.epsi.fr/campus/campus-de-grenoble/">l'EPSI de Grenoble</a></b>
+                et je suis à la recherche d'une alternance pour ma 3ème année dans le domaine du développement l'informatique. <br><br>
+
+                Mordu de jeux vidéos depuis ma plus tendre enfance, j'ai toujours voulu savoir ce qui se cachait derrière l'apparence colorée de ces moyens de divertissement
+                pour cette raison j'ai entrepris des études dans l'informatique. <br><br>
+
+                Comme écrit précédemment, j'adore les jeux vidéos, mais aussi lire, le tir à l'arc et les jeux de sociétés.<br>
+                j'ai fais un séjour de 6 mois a l'étranger pour ameliorer mon anglais, j'ai donc un bon niveau dans cette langue.
+            </span>
+            <br><br>
+            <h2>Informations basiques</h2>
+            <div id = "CInformatique"></div>
+            <ul>
+                <li><b>Age</b> : 23 ans</li>
+                <li><b>Email</b> : mgouviaux@gmail.com</li>
+                <li><b>Telephone</b> : +3351919312</li>
+                <li><b>Addresse</b> : 30 rue Joseph Rey, 38000 Grenoble</li>
+                <li><b>Permis</b> : Permis B</li>
+            </ul>
+        </div>
+
+        <div class="cards" id = "CompInformatique">
+            <h2>Competences Informatiques</h2>
+            <span>Python : ★★★★☆</span><br>
+            <ul>
+                <li>Utilisé dans un projet personnel</li>
+                <li>Librairies utilisées : Pyspark, MatplotLib, numpy, ect</li>
+                <li>Bases de Django</li>
+            </ul>
+            <span>C : ★★☆☆☆</span><br>
+            <span>C# : ★★★★☆</span><br>
+            <ul>
+                <li>Utilisé dans un projet personnel</li>
+            </ul>
+            <span>HTML/CSS : ★★★☆☆</span><br>
+            <ul>
+                <li>Utilisé pour créer ce CV</li>
+            </ul>
+            <span>JavaScript : ★★★☆☆</span><br>
+            <ul>
+                <li>Utilisé pour créer ce CV</li>
+            </ul>
+            <span>PHP : ★★★☆☆</span><br>
+            <ul>
+                <li>Bases de Symfony</li>
+            </ul>
+            <span>SQL : ★★★★☆</span><br>
+            <ul>
+                <li>Utilisation d'azure et de plusieurs Librairies basées sur la recuperation et la manipulation de données</li>
+            </ul>
+            <div id="EPro"></div>
+
+        </div>
+
+        <div class = "cards" id="ExperiencesPro">
+            <h2>Expériences Professionnelles</h2>
+            <div class = "Job">
+                <div class="LeftPartWork">
+                    <div class = "Duration">Mai 2022 - Juillet 2022</div>
+                    <div class = "WorkPlace">Schneider Electric</div>
+                </div>
+                <div class = "RightPartWork">
+                    <div class = "Post">Stagiaire Développement informatique</div>
+                    <div class = "Description">J'ai assisté l'équipe d'E-Mobility dans des taches diverses, de l'analyse de données a la programmation de scripts en Python et C#</div>
+                </div>
+            </div>
+            <div class = "Job">
+                <div class="LeftPartWork">
+                    <div class = "Duration">Janvier 2022 - Fevrier 2022</div>
+                    <div class = "WorkPlace">LSI Technologies</div>
+                </div>
+                <div class = "RightPartWork">
+                    <div class = "Post">Stagiaire Développeur / Design Informatique</div>
+                    <div class = "Description">Mise a jour de l'apparence et amélioration de l'ergonomie de l'application Chronosat FullPilot en WLangage (Windev)</div>
+                </div>
+            </div>
+            <div class = "Job">
+                <div class="LeftPartWork">
+                    <div class = "Duration">Septembre 2021 - Mai 2022</div>
+                    <div class = "WorkPlace">Super U</div>
+                </div>
+                <div class = "RightPartWork">
+                    <div class = "Post">Employé Libre Service</div>
+                    <div class = "Description">Travail étudiant de 12h par semaines les week-ends</div>
+                </div>
+            </div>
+            <div class = "Job">
+                <div class="LeftPartWork">
+                    <div class = "Duration">Avril 2021 - Juin 2021</div>
+                    <div class = "WorkPlace">Raynet</div>
+                </div>
+                <div class = "RightPartWork">
+                    <div class = "Post">Stagiaire Technicien Informatique</div>
+                    <div class = "Description">Stage de 2 mois au service informatique.
+                        Mise en place de la solution LAPS sur les server de l'entreprise;
+                        Préparation de switchs Cisco.
+                        Dépannage des utilisateurs</div>
+                </div>
+            </div>
+            <div class = "Job">
+                <div class="LeftPartWork">
+                    <div class = "Duration">Decembre 2019 - Mai 2020</div>
+                    <div class = "WorkPlace">Reynolds Newsagent</div>
+                </div>
+                <div class = "RightPartWork">
+                    <div class = "Post">Sales Assistant</div>
+                    <div class = "Description">Vendeur dans un magasin de Dublin centre</div>
+                </div>
+            </div>
+            <div class = "Job">
+                <div class="LeftPartWork">
+                    <div class = "Duration">Octobre 2019 - Mai 2020</div>
+                    <div class = "WorkPlace">Debenhams</div>
+                </div>
+                <div class = "RightPartWork">
+                    <div class = "Post">Kitchen Porter</div>
+                    <div class = "Description">Plongeur dans un restaurant de Dublin centre</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards" id="Educations">
+            <h2>Diplômes et Formations</h2>
+            <div class = "Class">
+                <div class="LeftPartEd">
+                    <div class = "Duration">Septembre 2020 - Actuellement</div>
+                    <div class = "School">EPSI Grenoble</div>
+                </div>
+                <div class = "RightPartEd">
+                    <div class = "EdTitle">Bachelor IT</div>
+                    <div class = "Description">Etudes spécialisées vers le DevOps</div>
+                </div>
+            </div>
+            <div class = "Class">
+                <div class="LeftPartEd">
+                    <div class = "Duration">Septembre 2017 - Juillet 2019</div>
+                    <div class = "School">DLST - Université Grenoble Alpes</div>
+                </div>
+                <div class = "RightPartEd">
+                    <div class = "EdTitle">Liscence Informatique et Maths Appliquées</div>
+                    <div class = "Description">Rater la 1ère année 2 fois</div>
+                </div>
+            </div>
+            <div class = "Class">
+                <div class="LeftPartEd">
+                    <div class = "Duration">Septembre 2015 - Juillet 2017</div>
+                    <div class = "School">Lycée Champollion Grenoble</div>
+                </div>
+                <div class = "RightPartEd">
+                    <div class = "EdTitle">Bac S</div>
+                    <div class = "Description">Bac scientifique spécialisé Sciences de l'ingénieur</div>
+                </div>
+            </div>
+        </div>
+        <div class="Portfolio" id="Portfolio"">
+            <h2>Portfolio</h2>
+            <div class = "folioContainer">
+                <div class = "folioItem" id = "Aegis">
+                    <a href="https://github.com/Kadah-Ne/AegisBot" targer = "_blank">
+                        <img src="Images/Aegis.png" alt="">
+                    </a>
+                </div>
+                <div class = "folioItem" id = "Derek">
+                    <a href="https://github.com/Kadah-Ne/DerekBot" target="_blank">
+                        <img src="Images/Derek" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

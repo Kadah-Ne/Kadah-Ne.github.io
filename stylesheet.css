@@ -1,0 +1,360 @@
+body 
+{
+    overflow-x: hidden;
+    font-size: larger;
+    background-color: black;
+    font-family: 'montserrat','helvetica neue','Arial','sans-serif';
+    
+}
+
+#StickyBar
+{
+    top : 0;
+    left: 0;
+    height: 70px;
+    background-color: rgb(12, 85, 154);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color:aliceblue;
+    position: fixed;
+    z-index: 3;
+}
+
+#StickyName
+{
+    padding-top: 1%;
+    padding-left: 20px;
+    height: 50px;
+    width: 50px;
+    padding-right: 1380px;
+}
+
+#StickyMenu
+{
+    float: right;
+}
+
+.Stickycontainer {
+    padding-top: 40%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+
+
+.HeaderCV
+{   
+
+    margin-left: -1%;
+    width: 101%;
+    height: 450px;
+    justify-content: center;
+
+}
+
+.containerHead
+{
+    top:0px;
+    width: inherit;
+    height: inherit;
+    justify-content: center;
+    position: absolute;
+    vertical-align: middle;
+    z-index: 2;
+}
+
+.container
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 5%;    
+}
+
+#BackGroundHead
+{
+    width: 100.5%;
+    height: inherit;
+    background-image: linear-gradient(to bottom, rgba(245, 255, 252, 0), rgb(0, 0, 0)),url('Images/snow.jpg');
+    background-size: cover;
+    z-index: 2; 
+}
+
+#Martin
+{
+    width: inherit;
+    height: inherit;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#Martin h1
+{
+    padding-bottom: 55px;
+}
+#maFace
+{
+    width: 150px;
+    height: 150px;
+    object-fit:fill;
+    border-style: groove;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2,5px;
+}
+.Titles
+{
+    font-weight: 700;
+    color:#D5F2F5;
+    -webkit-text-stroke:1px black
+}
+#Nom
+{
+    font-size: 2.5em;
+}
+
+#Links
+{
+    margin-top: 40px;
+    justify-content: center;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+
+#Links img 
+{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.BodyCV
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards
+{
+    color: #2c2c2c;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 80px;
+    align-self: center; 
+    width: 75%;
+    height: auto;
+    background-color: white;
+    justify-content: left;
+    text-align: left;
+    box-shadow: 2px 2px 10px grey;
+}
+
+#CompInformatique span
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(2, 120, 26);
+}
+
+.Portfolio
+{
+    align-self: center;
+    background-color: white;
+    box-shadow: 2px 2px 10px grey;
+    color: #2c2c2c;
+    
+}
+
+.folioContainer
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.folioItem img
+{
+    width: 500px;
+    height: 500px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  #TopPage
+  {
+    text-decoration: none;
+    color: inherit;
+  }
+  .sidebar a {
+
+    padding: 8px 8px 8px 8px;
+    padding-left: 64px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    padding-left: 8px;
+    left: 0px;
+    font-size: 36px;
+    margin-right: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main 
+  {
+    transition: margin-right .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  .Job
+  {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    box-shadow: 2px 2px 10px grey;
+  }
+  .LeftPartWork
+  {
+    
+    height: 150px;
+    width: 23%;
+    background-color: rgb(12, 85, 154);;
+    color: #ffffff;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    
+  }
+
+  .RightPartWork
+  {
+    max-width: 70%;
+  }
+
+  .Post
+  {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .Description
+  {
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .Duration
+  {
+    margin-top: 30px;
+  }
+  .WorkPlace
+  {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    
+  }
+
+  .Class
+  {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    box-shadow: 2px 2px 10px grey;
+  }
+  .LeftPartEd
+  {
+    
+    height: 150px;
+    width: 23%;
+    background-color: rgb(12, 85, 154);;
+    color: #ffffff;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    
+  }
+
+  .RightPartEd
+  {
+    max-width: 70%;
+  }
+
+  .EdTitle
+  {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .School
+  {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    
+  }
+
