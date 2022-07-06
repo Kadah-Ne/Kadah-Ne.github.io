@@ -138,13 +138,13 @@ body
 h1
 {
     font-size: 1.8rem;
-    -webkit-text-stroke:1px black
+    -webkit-text-stroke:0.5rem black
 }
 
 h2
 {
     font-size: 1.3rem;
-    -webkit-text-stroke:1px black
+    -webkit-text-stroke:0.5rem black
 }
 
 .HeaderText img
