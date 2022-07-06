@@ -14,7 +14,7 @@ body
 /* Css for the sliding menu */
     .sidebar {
         height: 100%;
-        width: 20rem;
+        width: 0rem;
         position: fixed;
         z-index: 6;
         top: 0;
