@@ -14,7 +14,7 @@ body
 /* Css for the sliding menu */
     .sidebar {
         height: 100%;
-        width: 0;
+        width: 20rem;
         position: fixed;
         z-index: 6;
         top: 0;
@@ -50,12 +50,12 @@ body
         top: 0;
         padding-left: 8px;
         left: 0px;
-        font-size: 36px;
-        margin-right: 50px;
+        font-size: 4rem;
+        margin-right: 9rem;
     }
     
     .openbtn {
-        font-size: 20px;
+        font-size: 4rem;
         cursor: pointer;
         background-color: #111;
         color: white;
@@ -70,13 +70,13 @@ body
     #main 
     {
         transition: margin-right .5s;
-        padding: 16px;
+        padding: 1rem;
     }
     
     /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
     @media screen and (max-height: 450px) {
-        .sidebar {padding-top: 15px;}
-        .sidebar a {font-size: 18px;}
+        .sidebar {padding-top: 3rem;}
+        .sidebar a {font-size: 1.8em;}
     }
 /* Fin du css slidebar */
 
