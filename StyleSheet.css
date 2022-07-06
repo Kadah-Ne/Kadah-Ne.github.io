@@ -228,7 +228,7 @@ h2
     min-width: 88vw;
     scroll-snap-align: center;
     text-align: left;
-    justify-content: center;
+    justify-content: left;
     position: relative;
     font-size: 1rem;
     box-shadow: 2px 2px 10px grey;
@@ -239,9 +239,7 @@ h2
 ul
 {
     word-wrap: break-word;
-    margin-right: 5%;
-    padding-right: 5%;
-    padding-inline-start: 20%;
+    padding-inline-start:30rem
 }
 
 h3
@@ -250,6 +248,14 @@ h3
     font-size: 1rem;
     text-align: center;
 }
+
+h4
+{
+    font-weight: 800;
+    font-size: 1rem;
+    text-align: center;
+}
+
 
 #ITSkills
 {
@@ -466,7 +472,7 @@ h3
 .folioItem img
 {
     box-shadow: 2px 2px 10px grey;
-    width: 25%;
+    width: 20rem;
 }
 
 
@@ -478,8 +484,3 @@ h3
     background-color:rgb(54, 53, 53);
     height: 20%;
 }
-
-
-
-
-
