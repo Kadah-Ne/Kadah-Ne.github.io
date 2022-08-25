@@ -61,13 +61,13 @@
                 </span>
             </div>
             
-        <div id="InfosAPropos">
+        <div id="InfosAPropos" onscroll="scrollPointInfos()">
             <div class="Infos">
                 <h3>Informations Basiques</h3>
                 <ul>
                     <li><b>Age</b> : 23 ans</li>
                     <li><b>Email</b> : mgouviaux@gmail.com</li>
-                    <li><b>Telephone</b> : +33651919312</li>
+                    <li><b>Telephone</b> : 06.51.91.93.12</li>
                     <li><b>Addresse</b> : 30 rue Joseph Rey, 38000 Grenoble</li>
                     <li><b>Permis</b> : Permis B</li>
                 </ul>
@@ -92,11 +92,16 @@
                     </ul>
                 </div>
             </div>
+            <div id="navigationPoints">
+                <span id="P1I" onclick="scrollToPosition('InfosAPropos',0)"></span>
+                <span id="P2I" onclick="scrollToPosition('InfosAPropos',1672)"></span>
+                <span id="P3I" onclick="scrollToPosition('InfosAPropos',3345)"></span>
+            </div>
         </div>
         <div class="cards">
             <div id="CInformatique"></div>
             <h3>Competences Informatiques</h3>
-            <div id="ITSkills">
+            <div id="ITSkills" onscroll="scrollPointComps()">
                 <div id="ITSkillsShard">
                     <h4>Python : ★★★★☆</h4>
                     <ul>
@@ -109,6 +114,8 @@
                     <h4>C# : ★★★★☆</h4>
                     <ul>
                         <li>Utilisé dans un projet personnel</li>
+                        <li>Utilisé lors d'un stage en entreprise pour automatiser la sauvegarde d'une base de données</li>
+                        <li>Utilisé en cours pour différents projets</li>
                     </ul>
                 </div>
                 <div id="ITSkillsShard">
@@ -137,10 +144,18 @@
                 </div>
                 <div id="EPro"></div>
             </div>
+            <div id="navigationPoints">
+                <span id="P1C" onclick="scrollToPosition('ITSkills',0)"></span>
+                <span id="P2C" onclick="scrollToPosition('ITSkills',1672)"></span>
+                <span id="P3C" onclick="scrollToPosition('ITSkills',3371)"></span>
+                <span id="P4C" onclick="scrollToPosition('ITSkills',5070)"></span>
+                <span id="P5C" onclick="scrollToPosition('ITSkills',6769)"></span>
+                <span id="P6C" onclick="scrollToPosition('ITSkills',8442)"></span>
+            </div>
         </div>
         <div class = "cards">
             <h3>Expériences Professionnelles</h3>
-            <div id="ExperiencesPro">
+            <div id="ExperiencesPro" onscroll="scrollPointJobs()">
                 <div class = "Job">
                     <div class="LeftPartWork">
                         <div class = "Duration">Mai 2022 - Juillet 2022</div>
@@ -223,11 +238,19 @@
                     </div>
                 </div>
             </div>
+            <div id="navigationPoints">
+                <span id="P1J" onclick="scrollToPosition('ExperiencesPro',0)"></span>
+                <span id="P2J" onclick="scrollToPosition('ExperiencesPro',1672)"></span>
+                <span id="P3J" onclick="scrollToPosition('ExperiencesPro',3371)"></span>
+                <span id="P4J" onclick="scrollToPosition('ExperiencesPro',5070)"></span>
+                <span id="P5J" onclick="scrollToPosition('ExperiencesPro',6769)"></span>
+                <span id="P6J" onclick="scrollToPosition('ExperiencesPro',8442)"></span>
+            </div>
         </div>
 
         <div class="cards">
             <h3>Diplômes et Formations</h3>
-            <div id="Education">
+            <div id="Education" onscroll="scrollPointSchools()">
                 <div class = "Class">
                     <div class="LeftPartEd">
                         <div class = "Duration">Septembre 2020 - Actuellement</div>
@@ -267,6 +290,11 @@
                         <div class = "Description">Bac scientifique spécialisé Sciences de l'ingénieur</div>
                     </div>
                 </div>
+            </div>
+            <div id="navigationPoints">
+                <span id="P1S" onclick="scrollToPosition('Education',0)"></span>
+                <span id="P2S" onclick="scrollToPosition('Education',1672)"></span>
+                <span id="P3S" onclick="scrollToPosition('Education',3345)"></span>
             </div>
         </div>
         <div class="cards" id="Portfolio">

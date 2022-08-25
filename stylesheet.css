@@ -410,7 +410,7 @@ body
     flex-direction: column;
     row-gap: 15%;
     width: 45%;
-    background-color: rgb(226, 143, 9);;
+    background-color: rgb(226, 143, 9);
     color: #000000;
     vertical-align:text-top;
     text-align: center;
@@ -562,3 +562,50 @@ h4
     font-size: 1rem;
     text-align: center;
 }
+
+#P1I
+{
+  height: 18px;
+  border-style: outset;
+}
+
+#P1C
+{
+  height: 18px;
+  border-style: outset;
+}
+
+#P1J
+{
+  height: 18px;
+  border-style: outset;
+}
+
+#P1S
+{
+  height: 18px;
+  border-style: outset;
+}
+
+#navigationPoints
+{
+  font-size: 3.5em;
+}
+
+#navigationPoints span 
+{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  border-color: rgb(226, 143, 9);;
+}
+
+#navigationPoints :hover
+{
+  background-color: rgb(226, 143, 9);
+}
+
+
