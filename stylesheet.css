@@ -294,7 +294,7 @@ body
       border-color: #111;
       border-width: 0.5px;
       min-width: 90%;
-      min-height: 25em;
+      min-height: 20em;
       scroll-snap-align: center;
       text-align: left;
       position: relative;
@@ -360,17 +360,12 @@ body
       font-weight: 500;
     }
   
-    .logo
-    {
-      border-style: dashed;
-      align-self: center;
-      width: 40%;
-    }
-  
     .logo img
     {
-      width: max-content;
+      align-self: center;
+      width: 7lem;
     }
+
 
   
   #Education
