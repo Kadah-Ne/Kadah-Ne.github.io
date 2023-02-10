@@ -33,15 +33,15 @@
             </div>
         </div>
         <div class="HeaderText">
-            <img src="Images/maFace.jpg" alt="" id="maFace">
+            <img src="Images/Other/maFace.jpg" alt="" id="maFace">
             <h1>Martin Gouviaux</h1>
-            <h2>2ème année de bachelor a l'EPSI de Grenoble</h2>
-            <h2>Recherche d'Alternance 2022-2023</h2>
+            <h2>3ème année de bachelor a l'EPSI de Grenoble</h2>
+            <h2>Recherche d'Alternance 2023-2024</h2>
             <h3><a href="Downloadables/CV_Martin_Gouviaux.pdf">Télécharger mon cv</a></h3>
         </div>
         <div id="HeaderLinks">
-            <a href="https://github.com/Kadah-Ne" target="_blank"><img src="Images/GitHub.png" alt=""></a>
-            <a href="https://www.linkedin.com/in/martin-gouviaux-1b95681b7/" target="_blank"><img src="Images/Linkedin.png" alt=""></a>
+            <a href="https://github.com/Kadah-Ne" target="_blank"><img src="Images/Social/GitHub.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/martin-gouviaux-1b95681b7/" target="_blank"><img src="Images/Social/Linkedin.png" alt=""></a>
         </div>
         <div id="APropos"></div>
     </div>
@@ -51,8 +51,8 @@
             <div class="APropos">
                 <h3>A Propos</h3>
                 <span>
-                    Je suis Martin GOUVIAUX, étudiant en 2ème année de bachelor a <b><a href="https://www.epsi.fr/campus/campus-de-grenoble/" target="_blank">l'EPSI de Grenoble</a></b>
-                    et je suis à la recherche d'une alternance pour ma 3ème année dans le domaine du développement informatique. <br><br>
+                    Je suis Martin GOUVIAUX, étudiant en 3ème année de bachelor a <b><a href="https://www.epsi.fr/campus/campus-de-grenoble/" target="_blank">l'EPSI de Grenoble</a></b>
+                    et je suis à la recherche d'une alternance pour ma 1ère année de Master dans le domaine du développement informatique. <br><br>
 
                     Mordu de jeux vidéos depuis ma plus tendre enfance, j'ai toujours voulu savoir ce qui se cachait derrière l'apparence colorée de ces moyens de divertissement
                     pour cette raison j'ai entrepris des études dans l'informatique. <br><br>
@@ -62,18 +62,18 @@
                 </span>
             </div>
             
-        <div id="InfosAPropos" onscroll="scrollPointInfos()">
-            <div class="Infos">
+        <div id="InfosAPropos">
+            <div class="Infos" id="InfosBase">
                 <h3>Informations Basiques</h3>
                 <ul>
-                    <li><b>Age</b> : 23 ans</li>
+                    <li><b>Age</b> : 24 ans</li>
                     <li><b>Email</b> : mgouviaux@gmail.com</li>
                     <li><b>Telephone</b> : 06.51.91.93.12</li>
                     <li><b>Addresse</b> : 30 rue Joseph Rey, 38000 Grenoble</li>
                     <li><b>Permis</b> : Permis B</li>
                 </ul>
             </div>
-            <div class="Infos">
+            <div class="Infos" id="Interets">
                 <h3>Centres d'Intérêts</h3>
                     <ul>
                         <li><b>Développer des bots Python</b></li>
@@ -83,7 +83,7 @@
                         <li><b>Voyages</b>(Irland : Sejour de 1 an de 2019 à 2020)</li>
                     </ul>
             </div>
-            <div class="Infos">
+            <div class="Infos" id="Atouts">
                 <h3>Atouts</h3>
                     <ul>
                         <li><b>Aisance à l'orale</b></li>
@@ -94,50 +94,64 @@
                 </div>
             </div>
             <div id="navigationPoints">
-                <span id="P1I" onclick="scrollToPosition('InfosAPropos',0)"></span>
-                <span id="P2I" onclick="scrollToPosition('InfosAPropos',1672)"></span>
-                <span id="P3I" onclick="scrollToPosition('InfosAPropos',3345)"></span>
+                <span id="P1I" onclick="moveTo('InfosBase')"></span>
+                <span id="P2I" onclick="moveTo('Interets')"></span>
+                <span id="P3I" onclick="moveTo('Atouts')"></span>
             </div>
         </div>
         <div class="cards">
             <div id="CInformatique"></div>
             <h3>Competences Informatiques</h3>
-            <div id="ITSkills" onscroll="scrollPointComps()">
-                <div id="ITSkillsShard">
+            <div id="ITSkills">
+                <div class="ITSkillsShard" id="Py">
                     <h4>Python : ★★★★☆</h4>
                     <ul>
-                        <li>Utilisé dans un projet personnel</li>
+                        <li>Utilisé dans un projet personnel et dans des projets de cours</li>
                         <li>Librairies utilisées : Pyspark, MatplotLib, numpy, ect</li>
-                        <li>Bases de Django</li>
+                        <li>Bases de Django et de Flask</li>
                     </ul>
                 </div>
-                <div id="ITSkillsShard">
+                <div class="ITSkillsShard" id ="CS">
                     <h4>C# : ★★★★☆</h4>
                     <ul>
                         <li>Utilisé dans un projet personnel</li>
                         <li>Utilisé lors d'un stage en entreprise pour automatiser la sauvegarde d'une base de données</li>
                         <li>Utilisé en cours pour différents projets</li>
+                        <li>Utilisation d'Unity pour des projets de cours et personnel</li>
                     </ul>
                 </div>
-                <div id="ITSkillsShard">
+                <div class="ITSkillsShard" id="Java">
+                    <h4>Java : ★★☆☆☆</h4>
+                    <ul>
+                        <li>Utilisé dans des projets de cours</li>
+                    </ul>
+                </div>
+                <div class="ITSkillsShard" id="WL">
+                    <h4>Windev/Wlanguage : ★★★★☆</h4>
+                    <ul>
+                        <li>Utilisé tout au long de mon alternance de 2022 à 2023</li>
+                    </ul>
+                </div>
+                <div class="ITSkillsShard" id="SQL">
                     <h4>SQL : ★★★★☆</h4>
                     <ul>
                         <li>Utilisation d'azure et de plusieurs Librairies basées sur la recuperation et la manipulation de données</li>
                     </ul>
                 </div>
-                <div id="ITSkillsShard">
+                <div class="ITSkillsShard" id="HTML">
                     <h4>HTML/CSS : ★★★☆☆</h4>
                     <ul>
                         <li>Utilisé pour créer ce CV</li>
                     </ul>
                 </div>
-                <div id="ITSkillsShard">
+                <div class="ITSkillsShard" id="JS">
                     <h4>JavaScript : ★★★☆☆</h4>
                     <ul>
                         <li>Utilisé pour créer ce CV</li>
+                        <li>Base de Angular</li>
                     </ul>
                 </div>
-                <div id="ITSkillsShard">
+                <div class="ITSkillsShard" id="PHP">
                     <h4>PHP : ★★★☆☆</h4>
                     <ul>
                         <li>Bases de Symfony</li>
@@ -146,18 +160,33 @@
                 <div id="EPro"></div>
             </div>
             <div id="navigationPoints">
-                <span id="P1C" onclick="scrollToPosition('ITSkills',0)"></span>
-                <span id="P2C" onclick="scrollToPosition('ITSkills',1672)"></span>
-                <span id="P3C" onclick="scrollToPosition('ITSkills',3371)"></span>
-                <span id="P4C" onclick="scrollToPosition('ITSkills',5070)"></span>
-                <span id="P5C" onclick="scrollToPosition('ITSkills',6769)"></span>
-                <span id="P6C" onclick="scrollToPosition('ITSkills',8442)"></span>
+                <span id="P1C" onclick="moveTo('Py')"></span>
+                <span id="P2C" onclick="moveTo('CS')"></span>
+                <span id="P3C" onclick="moveTo('Java')"></span>
+                <span id="P4C" onclick="moveTo('WL')"></span>
+                <span id="P5C" onclick="moveTo('SQL')"></span>
+                <span id="P6C" onclick="moveTo('HTML')"></span>
+                <span id="P7C" onclick="moveTo('JS')"></span>
+                <span id="P8C" onclick="moveTo('PHP')"></span>
             </div>
         </div>
         <div class = "cards">
             <h3>Expériences Professionnelles</h3>
-            <div id="ExperiencesPro" onscroll="scrollPointJobs()">
-                <div class = "Job">
+            <div id="ExperiencesPro">
+                <div class = "Job" id="LSI2">
+                    <div class="LeftPartWork">
+                        <div class = "Duration">Septembre 2022 - Septembre 2023</div>
+                        <div class = "WorkPlace">LSI Technologies</div>
+                        <div class="logo">
+                            <img src="./Images/Logos/LSI.png" alt="">
+                        </div>
+                    </div>
+                    <div class = "RightPartWork">
+                        <div class = "Post">Alternant developpement informatique</div>
+                        <div class = "Description">J'ai été engagé pour developper la version mobile du produit phare de LSI, Chronossat, via Windev</div>
+                    </div>
+                </div>
+                <div class = "Job" id="Schneider">
                     <div class="LeftPartWork">
                         <div class = "Duration">Mai 2022 - Juillet 2022</div>
                         <div class = "WorkPlace">Schneider Electric</div>
@@ -170,20 +199,20 @@
                         <div class = "Description">J'ai assisté l'équipe d'E-Mobility dans des taches diverses, de l'analyse de données a la programmation de scripts en Python et C#</div>
                     </div>
                 </div>
-                <div class = "Job">
+                <div class = "Job" id="LSI">
                     <div class="LeftPartWork">
                         <div class = "Duration">Janvier 2022 - Fevrier 2022</div>
-                        <div class = "WorkPlace">LSI Tech.</div>
+                        <div class = "WorkPlace">LSI Technologies</div>
                         <div class="logo">
                             <img src="./Images/Logos/LSI.png" alt="">
                         </div>
                     </div>
                     <div class = "RightPartWork">
                         <div class = "Post">Stagiaire Développeur / Design Informatique</div>
-                        <div class = "Description">Mise a jour de l'apparence et amélioration de l'ergonomie de l'application Chronosat FullPilot en WLangage (Windev)</div>
+                        <div class = "Description">Mise a jour de l'apparence et amélioration de l'ergonomie de l'application Chronossat FullPilot en WLangage (Windev)</div>
                     </div>
                 </div>
-                <div class = "Job">
+                <div class = "Job" id="SuperU">
                     <div class="LeftPartWork">
                         <div class = "Duration">Septembre 2021 - Mai 2022</div>
                         <div class = "WorkPlace">Super U</div>
@@ -196,7 +225,7 @@
                         <div class = "Description">Travail étudiant de 12h par semaine les week-ends</div>
                     </div>
                 </div>
-                <div class = "Job">
+                <div class = "Job" id="Araymond">
                     <div class="LeftPartWork">
                         <div class = "Duration">Avril 2021 - Juin 2021</div>
                         <div class = "WorkPlace">ARaymond</div>
@@ -212,12 +241,12 @@
                             Dépannage des utilisateurs</div>
                     </div>
                 </div>
-                <div class = "Job">
+                <div class = "Job" id="Reynolds">
                     <div class="LeftPartWork">
                         <div class = "Duration">Decembre 2019 - Mai 2020</div>
                         <div class = "WorkPlace">Reynolds Newsagent</div>
                         <div class="logo">
-                            <img src="./Images/Logos/Schneider" alt="">
+                            <img src="" alt="">
                         </div>
                     </div>
                     <div class = "RightPartWork">
@@ -225,12 +254,12 @@
                         <div class = "Description">Vendeur dans un magasin de Dublin centre</div>
                     </div>
                 </div>
-                <div class = "Job">
+                <div class = "Job" id="Deb">
                     <div class="LeftPartWork">
                         <div class = "Duration">Octobre 2019 - Mai 2020</div>
                         <div class = "WorkPlace">Debenhams</div>
                         <div class="logo">
-                            <img src="./Images/Logos/Schneider" alt="">
+                            <img src="" alt="">
                         </div>
                     </div>
                     <div class = "RightPartWork">
@@ -240,24 +269,25 @@
                 </div>
             </div>
             <div id="navigationPoints">
-                <span id="P1J" onclick="scrollToPosition('ExperiencesPro',0)"></span>
-                <span id="P2J" onclick="scrollToPosition('ExperiencesPro',1672)"></span>
-                <span id="P3J" onclick="scrollToPosition('ExperiencesPro',3371)"></span>
-                <span id="P4J" onclick="scrollToPosition('ExperiencesPro',5070)"></span>
-                <span id="P5J" onclick="scrollToPosition('ExperiencesPro',6769)"></span>
-                <span id="P6J" onclick="scrollToPosition('ExperiencesPro',8442)"></span>
+                <span id="P1J" onclick="moveTo('LSI2')"></span>
+                <span id="P2J" onclick="moveTo('Schneider')"></span>
+                <span id="P3J" onclick="moveTo('LSI')"></span>
+                <span id="P4J" onclick="moveTo('SuperU')"></span>
+                <span id="P5J" onclick="moveTo('Araymond')"></span>
+                <span id="P6J" onclick="moveTo('Reynolds')"></span>
+                <span id="P7J" onclick="moveTo('Deb')"></span>
             </div>
         </div>
 
         <div class="cards">
             <h3>Diplômes et Formations</h3>
-            <div id="Education" onscroll="scrollPointSchools()">
-                <div class = "Class">
+            <div id="Education">
+                <div class = "Class" id="EPSI">
                     <div class="LeftPartEd">
                         <div class = "Duration">Septembre 2020 - Actuellement</div>
                         <div class = "School">EPSI Grenoble</div>
                         <div class="logo">
-                            <img src="./Images/Logos/Schneider" alt="">
+                            <img src="./Images/Logos/EPSI.PNG" alt="">
                         </div>
                     </div>
                     <div class = "RightPartEd">
@@ -265,12 +295,12 @@
                         <div class = "Description">Etudes spécialisées vers le DevOps</div>
                     </div>
                 </div>
-                <div class = "Class">
+                <div class = "Class" id="UGA">
                     <div class="LeftPartEd">
                         <div class = "Duration">Septembre 2017 - Juillet 2019</div>
                         <div class = "School">DLST - Université Grenoble Alpes</div>
                         <div class="logo">
-                            <img src="./Images/Logos/Schneider" alt="">
+                            <img src="./Images/Logos/UGA.png" alt="">
                         </div>
                     </div>
                     <div class = "RightPartEd">
@@ -278,12 +308,12 @@
                         <div class = "Description">1ère année</div>
                     </div>
                 </div>
-                <div class = "Class">
+                <div class = "Class" id="Champo">
                     <div class="LeftPartEd">
                         <div class = "Duration">Septembre 2015 - Juillet 2017</div>
                         <div class = "School">Lycée Champollion Grenoble</div>
                         <div class="logo">
-                            <img src="./Images/Logos/Schneider" alt="">
+                            <img src="./Images/Logos/Champollion.png" alt="">
                         </div>
                     </div>
                     <div class = "RightPartEd">
@@ -293,9 +323,9 @@
                 </div>
             </div>
             <div id="navigationPoints">
-                <span id="P1S" onclick="scrollToPosition('Education',0)"></span>
-                <span id="P2S" onclick="scrollToPosition('Education',1672)"></span>
-                <span id="P3S" onclick="scrollToPosition('Education',3345)"></span>
+                <span id="P1S" onclick="moveTo('EPSI')"></span>
+                <span id="P2S" onclick="moveTo('UGA')"></span>
+                <span id="P3S" onclick="moveTo('Champo')"></span>
             </div>
         </div>
         <div class="cards" id="Portfolio">
@@ -303,21 +333,25 @@
             <div class = "folioContainer">
                 <div class = "folioItem" id = "Aegis">
                     <a href="https://github.com/Kadah-Ne/AegisBot" target = "_blank">
-                        <img src="./Images/Aegis.png" alt="">
+                        <img src="./Images/Portfolio/Aegis.png" alt="">
                     </a>
                 </div>
                 <div class = "folioItem" id = "Derek">
                     <a href="https://github.com/Kadah-Ne/DerekBot" target="_blank">
-                        <img src="./Images/Derek" alt="">
+                        <img src="./Images/Portfolio/Derek.jpg" alt="">
                     </a>
                 </div>
+            </div>
+            <div id="navigationPoints">
+                <span id="P1S" onclick="moveTo('Aegis')"></span>
+                <span id="P2S" onclick="moveTo('Derek')"></span>
             </div>
         </div>
     </div>
     <div id="FooterCV">
         <div id="HeaderLinks">
-            <a href="https://github.com/Kadah-Ne" target="_blank"><img src="./Images/GitHub.png" alt=""></a>
-            <a href="https://www.linkedin.com/in/martin-gouviaux-1b95681b7/" target="_blank"><img src="./Images/Linkedin.png" alt=""></a>
+            <a href="https://github.com/Kadah-Ne" target="_blank"><img src="./Images/Social/GitHub.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/martin-gouviaux-1b95681b7/" target="_blank"><img src="./Images/Social/Linkedin.png" alt=""></a>
         </div>
     </div>
 </body>
