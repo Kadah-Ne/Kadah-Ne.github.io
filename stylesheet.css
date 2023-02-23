@@ -1,6 +1,7 @@
 body 
 {
     margin-top: 4em;
+    width: 100%;
     background: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 1) 20% ),url('Images/Other/WorldsAdrift.jpg') no-repeat center fixed ;
     background-size: cover;
     overflow-x: hidden;
@@ -15,6 +16,7 @@ body
     padding: 0 1em 0 1em;
     top : 0;
     left: 0;
+    right:0;
     height: 3.3em;
     background-color: rgb(226, 143, 9);
     width: 100%;
@@ -29,6 +31,7 @@ body
 .TopBarHam
 {
   padding-top: 0.5em;
+  right: 0;
 }
 #StickyName
 {
