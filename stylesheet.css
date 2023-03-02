@@ -1,7 +1,8 @@
 body 
 {
-    margin-top: 4em;
-    width: 100%;
+    margin-top: 10vh;
+    padding-top: 1vh;
+    width: 100vw;
     background: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 1) 20% ),url('Images/Other/WorldsAdrift.jpg') no-repeat center fixed ;
     background-size: cover;
     overflow-x: hidden;
@@ -13,38 +14,30 @@ body
 
 #StickyBar
 {
-    padding: 0 1em 0 1em;
-    top : 0;
-    left: 0;
-    right:0;
-    height: 3.3em;
-    background-color: rgb(226, 143, 9);
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    color:aliceblue;
-    position: fixed;
-    z-index: 3;
-}
-
-
-.TopBarHam
-{
-  padding-top: 0.5em;
+  background-color: rgb(226, 143, 9);
+  position: fixed;
+  z-index: 3;
+  padding: 0 6vw 0 6vw;
+  padding-top: 0.9vh;
+  top: 0;
+  left : 0;
   right: 0;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;   
 }
+
 #StickyName
 {
-    padding-top: 0.5em;
-    padding-left: 20px;
-    height: 50px;
-    width: 50px;
-    padding-right: 1380px;
+  left:0;
+  width: 2.3vw;
 }
 
 #StickyName a
 {
   color:#000000;
+  
 }
 
 #StickyMenu
@@ -52,25 +45,19 @@ body
     float: right;
 }
 
-.Stickycontainer {
-    padding-top: 40%;
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  
 
-
+.bar1, .bar2, .bar3 
+{
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+  
 .Header
 {
-    height: 30em;
+    height: 100vh;
 }
 
 .HeaderText
@@ -79,13 +66,7 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.container
-{
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-top: 5%;    
+    text-align: center;
 }
 
 
@@ -100,7 +81,7 @@ body
 
 #Martin h1
 {
-    padding-bottom: 55px;
+    padding-bottom: 5vh;
 }
 #maFace
 {
@@ -120,12 +101,13 @@ body
 }
 #Nom
 {
-    font-size: 2.5em;
+    font-size:calc(12px + .7vw);
 }
 
 #HeaderLinks
 {
-    margin-top: 40px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     justify-content: center;
     color: aliceblue;
     display: flex;
@@ -134,10 +116,10 @@ body
 
 #HeaderLinks img 
 {
-    width: 50px;
-    height: 50px;
-    margin-right: 5px;
-    margin-left: 5px;
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 #BodyCV
@@ -145,22 +127,20 @@ body
   margin: auto;
   margin-top: 5%;
   display: flex;
-  width: 100%;
-  position: relative;
+  width: 100vw;
+  /* position: relative; */
   flex-direction: column;
   text-align: left;
-  justify-items: center;
 }
 
 .cards
 {
-  margin:auto;
-  margin-top: 5%;
-  width: 90%;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  width: 70vw;
+  margin-left: 12vw;
+  
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  padding: 1vw 1vw 1vw 1vw;
   color: #2c2c2c;
   background-color: white;
   box-shadow: 2px 2px 10px grey;
@@ -189,24 +169,42 @@ body
   display: flex;
   flex-direction: row;
   margin: auto;
-  padding-bottom: 5%;
+  padding-bottom: 5vh;
   scroll-snap-type: x mandatory;
   column-gap: 20em;
+  height: fit-content;
+  
 }
 
 .folioItem
 {
+
+  flex-direction: row;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+  min-width: 90%;
+  min-height: fit-content;
   scroll-snap-align: center;
+  text-align: left;
+  display: flex;
+  position: relative;
+  font-size: 1rem;
+
+  justify-content: center;
+
+  scroll-snap-align: center;
+  
 }
 
 .folioItem img
 {
   box-shadow: 2px 2px 10px grey;
-  width: 20rem;
+  width: 20vw;
 }
 
 .sidebar {
-    height: 100%;
+    height: 100vh;
     width: 0;
     position: fixed;
     z-index: 5;
@@ -274,15 +272,15 @@ body
 
   #ExperiencesPro
   {
-      margin-top: 3%;
+      margin-top: 3vh;
       overflow-y: hidden;
       overflow-x: scroll;
       display: flex;
       flex-direction: row;
       margin: auto;
-      padding-bottom: 5%;
+      padding-bottom: 5vh;
       scroll-snap-type: x mandatory;
-      column-gap: 20em;
+      column-gap: 20vw;
   }
   
   .Job
@@ -297,11 +295,11 @@ body
       border-color: #111;
       border-width: 0.5px;
       min-width: 90%;
-      min-height: 20em;
+      min-height: 50%;
       scroll-snap-align: center;
       text-align: left;
       position: relative;
-      font-size:1.2rem;
+      font-size:calc(12px + 1vw);
       box-shadow: 2px 2px 10px grey;
       
     }
@@ -309,7 +307,7 @@ body
     {
       display: flex;
       flex-direction: column;
-      row-gap: 15%;
+      row-gap: 1%;
       width: 45%;
       background-color: rgb(226, 143, 9);;
       color: #000000;
@@ -325,17 +323,18 @@ body
       background-image: linear-gradient(to bottom, rgba(245,255,252,0) 0%, rgba(245,255,252,1) 79%);
       display: flex;
       flex-direction: column;
-      row-gap: 15%;
+      row-gap: 1%;
       width: 60%;
       text-align: center;
       padding: 1.5% 0 0 0;
+      max-height: fit-content;
     }
   
     .Post
     {
       margin-top: 3%;
-      font-size: 1.1em;
-      font-weight: 500;
+      font-size:calc(10px + 1vw);
+      font-weight: bold;
       text-decoration: underline;
     }
   
@@ -345,28 +344,25 @@ body
       padding-right: 1.5%;
       border-width: 0.5px;
       text-align:start;
-      margin-top: 1.5%;
-      font-size: 1em;
-      height: 100%;
-      
+      font-size:calc(9px + 1vw);
     }
   
     .Duration
     {
-      font-size: 1em;
+      font-size:calc(5px + 1vw);
       margin-top: 3%;
     }
     .WorkPlace
     {
       margin-top: 2%;
-      font-size: 1.1em;
+      font-size:calc(9px + 1vw);
       font-weight: 500;
     }
   
     .logo img
     {
       align-self: center;
-      width: 7em;
+      width: 70%;
     }
 
 
@@ -395,11 +391,11 @@ body
     border-color: #111;
     border-width: 0.5px;
     min-width: 90%;
-    min-height: 20em;
+    min-height: 20%;
     scroll-snap-align: center;
     text-align: left;
     position: relative;
-    font-size: 1rem;
+    font-size:calc(12px + 1vw);
     box-shadow: 2px 2px 10px grey;
   }
   .LeftPartEd
@@ -422,24 +418,25 @@ body
     background-image: linear-gradient(to bottom, rgba(245,255,252,0) 0%, rgba(245,255,252,1) 79%);
     display: flex;
     flex-direction: column;
-    row-gap: 15%;
+    row-gap: 5%;
     width: 60%;
     text-align: center;
     padding: 1.5% 0 0 0;
+    max-height: fit-content;
   }
 
   .EdTitle
   {
     margin-top: 3%;
-    font-size: 1.1rem;
-    font-weight: 500;
+    font-size:calc(12px + 1vw);
+    font-weight: bold;
     text-decoration: underline;
   }
 
   .School
   {
     margin-top: 2%;
-    font-size: 1rem;
+    font-size:calc(9px + 1vw);
     font-weight: 500;
   }
 
@@ -584,10 +581,14 @@ h4
 #navigationPoints
 {
   font-size: 3.5em;
+  display: flex;
+  justify-content: center;
 }
 
 #navigationPoints span 
 {
+  margin-left: 2%;
+  margin-right: 2%;
   border-style: outset;
   cursor: pointer;
   height: 12px;
