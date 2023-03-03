@@ -342,7 +342,7 @@ body
   
     .Description
     {
-      padding-left: 1.5%;
+      padding-left: 5%;
       padding-right: 1.5%;
       border-width: 0.5px;
       text-align:start;
@@ -364,7 +364,7 @@ body
     .logo img
     {
       align-self: center;
-      width: 70%;
+      width: 50%;
     }
 
 
@@ -393,7 +393,8 @@ body
     border-color: #111;
     border-width: 0.5px;
     min-width: 90%;
-    min-height: 20%;
+    /* min-height: 20%; */
+    height: fit-content;
     scroll-snap-align: center;
     text-align: left;
     position: relative;
@@ -412,6 +413,7 @@ body
     text-align: center;
     text-transform: uppercase;
     padding: 1.5% 1.5% 1.5% 1.5%;   
+    height: fit-content;
     
   }
 
