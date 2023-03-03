@@ -1,6 +1,8 @@
 body 
 {
     margin-top: 10vh;
+    margin-left: 0;
+    margin-right: 0;
     padding-top: 1vh;
     width: 100vw;
     background: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 1) 20% ),url('Images/Other/WorldsAdrift.jpg') no-repeat center fixed ;
@@ -135,8 +137,8 @@ body
 
 .cards
 {
-  width: 70vw;
-  margin-left: 12vw;
+  width: 80vw;
+  margin-left: 8vw;
   
   margin-top: 3vh;
   margin-bottom: 3vh;
