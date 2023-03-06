@@ -24,7 +24,7 @@ body
   top: 0;
   left : 0;
   right: 0;
-  height: 6vh;
+  height: 7vh;
   display: flex;
   justify-content: space-between;
   align-content: center;   
@@ -103,7 +103,7 @@ body
 }
 #Nom
 {
-    font-size:calc(12px + .7vw);
+    font-size:calc(9px + .7vw);
 }
 
 #HeaderLinks
