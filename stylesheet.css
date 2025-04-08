@@ -329,7 +329,7 @@ body
       width: 60%;
       text-align: center;
       padding: 1.5% 0 0 0;
-      max-height: fit-content;
+      max-height: 100%;
     }
   
     .Post
@@ -426,7 +426,7 @@ body
     width: 60%;
     text-align: center;
     padding: 1.5% 0 0 0;
-    max-height: fit-content;
+    max-height: 100%;
   }
 
   .EdTitle
